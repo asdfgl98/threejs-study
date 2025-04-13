@@ -1,0 +1,9 @@
+<main class="flex flex-col p-4">
+  <header class="flex gap-2">
+    <button [routerLink]="['/box']" class="btn">박스</button>
+    <button [routerLink]="['/line']" class="btn">선</button>
+  </header>
+  <section class="py-4">
+    <router-outlet />
+  </section>
+</main>
